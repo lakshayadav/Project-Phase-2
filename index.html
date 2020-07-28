@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Daily Schedule</title> <
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js" async></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF4bqub8I_mxW92CGAuYTSN2QCdRd3yXg&callback=initMap">
+</script>
+      <script src="thirdpartyapi.js" defer></script>
+</head>
+<body>
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="Ink_in_Water_Background.mp4" type="video/mp4">
+    </video>
+    <div id="myDiv" class="header">
+        <h1>My To-Do list</h1>  
+        <input type="text" id="text">
+        <button id="addbtn" class="addbtn">Add</button>
+        <div class="container">
+    <ul id="schedule">
+        
+        <section class="row">
+            <h4>My Location</h4>
+            <button id="mylocation">My Location Right Now</button>
+            <p id="location"></p>
+         <!--   <a id="map-link" target="_blank"></a>-->
+         <div id="map"></div>
+        </section>
+    </ul>
+  </body>
+
+</html>
